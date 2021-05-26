@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28332" started-at="2021-05-06T21:43:41Z" finished-at="2021-05-06T21:44:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28332" started-at="2021-05-06T21:43:41Z" finished-at="2021-05-06T21:44:09Z">
+      <class name="COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="setUp" is-config="true" duration-ms="79" started-at="2021-05-06T16:43:41Z" finished-at="2021-05-06T16:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="setUpTest" is-config="true" duration-ms="6665" started-at="2021-05-06T16:43:41Z" finished-at="2021-05-06T16:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="Login" duration-ms="1896" started-at="2021-05-06T16:43:48Z" finished-at="2021-05-06T16:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="office()[pri:2, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="office" duration-ms="2187" started-at="2021-05-06T16:43:50Z" finished-at="2021-05-06T16:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- office -->
+        <test-method status="PASS" signature="ConsultaDocumento1()[pri:3, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="ConsultaDocumento1" duration-ms="10446" started-at="2021-05-06T16:43:52Z" finished-at="2021-05-06T16:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultaDocumento1 -->
+        <test-method status="PASS" signature="centro_medico()[pri:3, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="centro_medico" duration-ms="3217" started-at="2021-05-06T16:44:02Z" finished-at="2021-05-06T16:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centro_medico -->
+        <test-method status="PASS" signature="VerificacionMensaje()[pri:4, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="VerificacionMensaje" duration-ms="3145" started-at="2021-05-06T16:44:05Z" finished-at="2021-05-06T16:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerificacionMensaje -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="tearDownTest" is-config="true" duration-ms="761" started-at="2021-05-06T16:44:09Z" finished-at="2021-05-06T16:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE@5db250b4]" name="tearDown" is-config="true" duration-ms="187" started-at="2021-05-06T16:44:09Z" finished-at="2021-05-06T16:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- COL_287.Mensaje_Centro_Medico$Mensaje_prod_PRE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

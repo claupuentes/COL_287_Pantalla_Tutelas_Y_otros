@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>COL_287_Pantalla_Tutelas_Y_otros</groupId>
+  <artifactId>COL_287_Pantalla_Tutelas_Y_otros</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<dependencies>
+  <!--LIBRERIA DE SELENIUM -->   
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>3.141.59</version>
+<scope>test</scope>
+</dependency>
+<!--LIBRERIA DE TESTNG-->
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>6.10</version>
+<scope>test</scope>
+</dependency>
+<!--LIBRERIA ESPERA ENTRE PAGINAS-->
+<dependency>
+<groupId>com.paulhammant</groupId>
+<artifactId>ngwebdriver</artifactId>
+<version>1.1.5</version>
+</dependency>
+<dependency>
+<groupId>io.github.bonigarcia</groupId>
+<artifactId>webdrivermanager</artifactId>
+<version>3.8.1</version>
+</dependency>
+<!--LIBRERIA DE REPORTERIA EN HTML-->
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+<groupId>com.aventstack</groupId>
+<artifactId>extentreports</artifactId>
+<version>3.1.5</version>
+</dependency>
+<!--LIBRERIA DE CONEXION A EXCEL-->
+      <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>  
+</dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.0.0</version>
+</dependency>
+<!--LIBRERIA GITHUP REPOSITORY-->
+<dependency>
+  <groupId>com.github.adiralashiva8</groupId>
+  <artifactId>testng-metrics</artifactId>
+  <version>1.6</version>
+</dependency>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.14.3</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-api</artifactId>
+        <version>3.141.59</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>3.141.59</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+</project>
